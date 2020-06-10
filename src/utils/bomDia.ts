@@ -42,7 +42,7 @@ export const getImage = async (message: string) => {
         message
     )
 
-    imagemComTexto = await imagemComTexto.print(
+    imagemComTexto = imagemComTexto.print(
         font28,
         pegarPosicaoCentralDeDimensao(dimensoesDaImagem.largura, dimensoesDaFont28.largura),
         dimensoesDaImagem.altura - dimensoesDaFont28.altura - 60,
