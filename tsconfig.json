@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "pretty": true,
+        "strict": true,
+        "sourceMap": true,
+        "target": "ES2017",
+        "outDir": "./dist",
+        "baseUrl": "./lib",
+        "skipLibCheck": true,
+        "resolveJsonModule": true
+    },
+    "include": [
+        "src/**/*.ts", "src/utils/registryUtils/blockC"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
